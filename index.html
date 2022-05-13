@@ -1,0 +1,446 @@
+<!--this is my first html code and iam so enthusiastic. Lets see what can we build and by 
+    the way this is comment section-->
+
+
+
+<!--ATTRIBUTES IN TAGS-->
+<!--These attributes add addtional information to that particular tag.-->
+<!--We can say color or style or position of a particular content using these attributes in 
+  tags.-->
+<!--Actually we use CSS for the above functions but we can also do with HTML attributes-->
+<!--Left side will be the name of the tag and right side will be the name of the attribute
+   along with its value-->
+<!--we can mention attributes values with in double or single quotes.-->
+<!--ex: html   lang="en"-->
+
+
+
+
+<!--This is my first html code-->
+<!--these tags are comments that is these tags are not render by browser in the webPages.-->
+<!--HTML is not a case sensitive-->
+<!DOCTYPE html>
+<!--Mostly we need to make our home page or first webPage as index.html because it will saved 
+  as home page of 
+our all webpages.Or if we want to save first html page as someother name we need to tell the
+ browser explicitly.-->
+<!--The above tag tells our browser we are using html5 version
+and The browser is responsible for taking html code and returning a webpage.-->
+<!--Tags helps in storing contents or storing someother tags-->
+<html lang="en">
+  <!--every element and every tag is written in html tag. Html tag is root tag.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--This "viewport attribute in meta tag helps in making our web pages more responsive 
+      according to different devices."-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstPage@@</title>
+    <!--This title tag in head tag helps in naming our webPage.-->
+    <!--head tag contains only meta data and that data is not present in webPages.-->
+</head>
+<body>
+  <h1>Hello World!!</h1>
+  <p>HI guys how are you doing!!</p>
+  <hr/>
+
+
+<!--Heading tags. There are 6 heading tags-->
+<h1>heading1...</h1>
+<h2>heading2...</h2>
+<h3>heading3...</h3>
+<h4>heading4...</h4>
+<h5>heading5...</h5>
+<h6>heading6...</h6>
+<!--These tags are used for giving importance for text if a text is written in h1 tag
+then it is more important and so on-->
+<!--heading tags should not be used for text sizes because browsers search results are based on 
+heading tags also so our heading tags should only used for important heading and important 
+text.-->
+<hr/>
+
+
+<!--Paragraph tag these tags are used for writing a paragraph in webpage-->
+<p>This is sample paragraph guys... this is sample para this is sample para this is sample para this is sample para this is sample para...</p>
+
+<hr/>
+
+<!--Anchor tag:Used for adding links for webpages.-->
+<!--we can add links to another webPages using anchor tag <a "href" is the attribute and the value of the anchor tag is link of webpage we want to navigate.-->
+<a href="https://github.com/RajKumar-A91/">GitHub</a>
+
+<!--BreakLine tag: used for new line that is to present the content in new line.-->
+<!--ex: <br/>-->
+<br/>
+<a href="https://www.youtube.com/">Enjoy the YOUTUBE Guys...</a>
+<!--going to another web page which is second web page in this folder itself-->
+<br/>
+<a href="/hello.html">##Go To Hello##</a>
+<!--we have seen above That we can add 2 types of links: 
+  1.Absolute Link:In this we add link of webPages which belongs to  another website 
+  ex:In above first two examples we have added links to github and youtube those kinds of links are absolute links. And we need to mention the Absolute Path in value of href.
+  2.Relative Links:In this we add link of webPages which belong to same website
+  ex:In last anchor tag we have added link of another webpage but that webpage belongs to same website.-->
+  <!--In case of relative anchor tags in value of href we need to mention the path of that webPage in the Files.-->
+  <!--suppose in case hello.html present in another folder hello_folder in same then we need to write anchor tag  like <a href="/hello_folder/hello.html"-->
+  <!--we need pass relative path That's why we call it as RELATIVE LINK-->
+  <!--here is the example below for relative webPage in another folder-->
+  <br/>
+  <a href="/hi_folder/hi_3.html">Want to move to 3rd Page!!</a>
+  <br/>
+  <hr/>
+
+
+  <!--IMAGE TAG: Used for adding Images to webPages-->
+  <!--ex: <img src="here we need to give either relative URL or absolute URL of the image." alt="In case if the image is not loaded, in this alt attribute we can give alternative text for image "/>-->
+  <!-- we can modify the size of the image using "height" and "width" attributes, and it is advisable to use only one attribute either height or width at a time, but it is not mandatory.-->
+  <img src="https://i.pinimg.com/originals/db/b1/80/dbb180946728e94a5b774ace4ca7a5c4.jpg" alt="Motor_Cycle" height="350" />
+  <br/>
+  <!--It is more advisable to change height and width and color and style using CSS..-->
+  <hr/>
+
+  <!--BOLD ITALIC UNDERLINED TAGS:-->
+  <b>BOLD</b>
+  <br/>
+  <i>ITALIC</i>
+  <br/>
+  <u>UNDERLINED</u>
+  <br/>
+  <hr/>
+  <br/>
+  <br/>
+
+
+  <!--BIG AND SMALL TAGS:-->
+  <big>This tag helps in making text Big..</big>
+  <br/>
+  <small>This tag helps in making text Small..</small>
+  <br/>
+  <br/>
+
+  <!--HORIZONTAL RULER TAG:used for divding the content between different elements using horizontal ruler.-->
+  <hr/>
+
+
+  <!--SUBSCIRPT AND SUPERSCRIPT TAGS-->
+  <!--In case of writing chemical formulas we use this subscript tags-->
+  <p>For writing the chemical formulae</p>
+  <p>H<sub>2</sub>O</p>
+  <hr/>
+  <!--In case of writing powers or mathical powers we use superscript tags-->
+  <p>For writing the mathematical powers formulae</p>
+  <p>3<sup>2</sup>=9</p>
+  <p>A<sup>n</sup>B</p>
+  <hr/>
+
+
+  <!--PRE TAG:Used for displaying text as it is(without ignoring the spaces & newLines)-->
+  <!--if we don't use the pre tag then if we mention more than one space than auto format removes all those spaces. 
+    So if we write pre tag then the spaces or newlines metioned by us will not be removed.-->
+  <!--If we want to mention number of spaces or number of lines then we need to use the pre tag.-->
+  <pre>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Beatae vero facilis temporibus exercitationem facere ea, 
+  unde saepe optio aut dolorem harum quidem laboriosam delectus perspiciatis. 
+  Voluptatibus sed ratione dignissimos necessitatibus.</pre>
+  <hr/>
+
+
+  <!--Level 3:-->
+
+
+  <!--LAYOUTS IN HTML:-->
+  <!--layouts in html does not show effects in webpages but when  it comes to our internal working of our webpage like in case of ranking of our page or when some searches for our website it helps in that case. -->
+  <!--Page Layout Techniques in Html:Using semantic tags for layout-->
+<!--Tags are of two types :1.semantic tags like header, main, footer.  2.non semantic tags like div, span-->  
+<!--Advantages of using semantic tags :
+1.helps in html code readable effectively.
+2.improves the searching results of our website.
+3.better rankings.
+4.more semantic tags more user friendly.-->
+<!--using right semantic tags...-->
+<!--header.
+footer.
+main.-->
+<header>
+  <pre>
+  <h1>1.Education</h1>
+  <h1>2.Projects</h1>
+</pre>
+</header>
+
+
+<!--Inside main tag:-->
+<!--Section tag: used for sectioning your content in main tag-->
+<!--Article Tag is used for writing articles on your web Page.-->
+<!--Aside Tag:Used for content aside main content(ads)-->
+<main>
+  <section>Education: Schooling(LFS), Intermediate(Narayan Jr College), B.tech(Malla Reddy Engineering College).</section>
+  <br/>
+  <section>Internships|Certifications: Android AppDevelopment(Internshala), WebDevelopment(Coursera), CyberSecurityEssentials(Cisco).</section>
+  <br/>
+  <article>MyStroy: Hey hiii guys I am Raj Kumar, and I am currently pursuing my bachaloers degree in Malla Reddy Engineering College on Computer Science and Engineering. And I Like BlockChain Tech a lot because it a decentralized platform due which the hacking and datamanipulation will not take place. It is more of a peer to peer network rather that a client server architecture.</article>
+  <!--If we want to run and add then we use aside tag.-->
+  <hr/>
+  <!--SEO(Search Engine Optimization) will ignore the content in the aside tag..-->
+  <aside>This is add!!!!</aside>
+  <hr/>
+</main>
+<footer>
+    <h2>Guys you can contact me at hello@.com....</h2>
+</footer>
+<!--A <footer> typically contains information about the author of the section, copyright data or links to related documents.-->
+
+
+
+<!--Revisiting Anchor tag:When we want to open a link in new tab then we use target attribute in anchor tag with value "_main".-->
+<a href="https://www.google.com/" target="_main">Google.com</a>
+<!--we can also make images clickable in anchor tag we just need to use img tag in anchor tag-->
+<br/>
+<hr/>
+<a href="https://www.geeksforgeeks.org/" target="_main"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200617163105/gfg-logo.png" alt="GeeksForGeeks" width="100" /></a>
+
+
+<!--Div Tag: This tag is non semantic tag and used to contain other elements or tags.-->
+<!--Div is block of elements...-->
+<!--If there is no elements in div tag then by default height of div tag is 0(zero).-->
+<div><p>hi this is ark!!!!</p></div>
+<!--div tag is block element(takes full width). It does care how much space it needs it takes entire full width.-->
+<!--Where as Inline elements takes only required amount of the size.-->
+<div>
+  <p>Hello</p>
+  <p>Hiii</p>
+  <p>Namasthe</p>
+  <p>aadhabh</p>
+</div>
+<div>
+  <p>Bye</p>
+  <p>goodBye</p>
+  <p>kudhaHafeez</p>
+  <p>Vellivastham</p>
+</div>
+<!--there are so many block elements which will take entire width.-->
+
+
+<!--Span tag: Span tag is also a container used to store other elements.-->
+<!--Span tag is an inLine tag that is it only takes required amount of width for displaying content in it.-->
+<!--span tag takes its width as per size required.-->
+<span>
+  Hiiii guys, How you are doing!!!
+</span>
+<!--Other than span we have so many inLine elements. Like anchor tag.-->
+
+
+<!--Lists in html:1.unodered lists 2.OrderedLists-->
+<!--unOdered List-->
+<!--for unodered lists we use <ul> tag we can store data using this tag in bullets format-->
+<ul>
+  <li>apple</li>
+  <ul>
+    <li>color:red</li>
+    <li>season:winter</li>
+  </ul>
+  <li>mango</li>
+  <ul>
+    <li>color:yellow</li>
+    <li>season:summer</li>
+  </ul>
+</ul>
+
+<!--OderedList-->
+<!--for odered lists we use <ol> tag by this tag we can content in odered format like number format or roman number format or alphabetics format.-->
+<ol>
+  <li>macLaren</li>
+  <ol>
+    <li>speed:312km/hr</li>
+    <li>engine:turboTwin</li>
+  </ol>
+  <li>Bugati</li>
+  <ol>
+    <li>speed:412km/hr</li>
+    <li>engine:turboV8</li>
+  </ol>
+  <li>Lambhorghini</li>
+  <ol>
+    <li>speed:400km/hr</li>
+    <li>engine:V8</li>
+  </ol>
+</ol>
+
+
+<!--Table tag:used to stored content in a table format, There are <tr>->for table_row, <th>->for table_header(colomn name), <td>->for table data.-->
+<!--for example below is a table for bikes lists and their top speed and their milage.-->
+<table>
+  <!--We can use <thead> tag to wrap heading part of table-->
+    <thead>
+  <!--We can use <caption> tag inside <table> tag to tell what data does our table going to save-->
+    <captoin>Bikes Details</captoin>
+
+  <tr>
+    <th>Bikes</th>
+    <th>Top_speed</th>
+    <th>Mileage</th>
+  </tr>
+</thead>
+<!--WE can use <tbody> tag inside <table> tag to wrap data or content or set of tuples of table-->
+<tbody>
+  <tr>
+    <td>Pulsar Ns 200 </td>
+    <td>150km/h</td>
+    <td>36km/lit</td>
+  </tr>
+  <tr>
+    <td>R15 Yamaha</td>
+    <td>155km/h</td>
+    <td>40km/lit</td>
+  </tr>
+  <tr>
+    <td>kawasaki</td>
+    <td>215km/h</td>
+    <td>17km/lit</td>
+  </tr>
+</tbody> 
+</table>
+
+<!--to merge to or more colomns we use colspan attribute with value is number of colomns to merge in <th> tag that helps in combining two or more colomns into one single header-->
+  <table>
+    <theader>
+      <caption>
+        Student Details
+      </caption>
+      <tr>
+        <th colspan="2">INFORMATION</th>
+      </tr>
+    </theader>
+    <tbody>
+      <tr>
+        <td>RajKumar</td>
+        <td>565</td>
+      </tr>
+      <tr>
+        <td>SadhGuru</td>
+        <td>566</td>
+      </tr>
+      <tr>
+        <td>AdhiShankaraCharya</td>
+        <td>567</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <!--Forms in HTML:Used to collect the data from the user like register, login, help, requests, contacts, tickets etc.,,-->
+  <!--<form></form> this is the opening and ending tags of forms respectively.-->
+  <!-- the first Attribute in form is ACTION: It is used to define what action needs to performed when a form is submitted.-->
+<!--Usually action tells that whatever the data collected from the form, where does it goes...-->
+<!--The data can go to javascript(frontEnd) which process it or it can go to the php(backEnd)..-->
+<!--Ex:<form action="/action.php"-->
+<!--The above example tells that the data is going to php file...The backend...-->
+<!--Action also checks 
+Whether you've entered correct data or not..-->
+
+
+<!--FORM ELEMENTS.....-->
+<!--1.input has two attributes 1.type it tells that what kind of data it can take. 2.placeholder it tells what should be already present in that input-->
+<form action="/action.php">
+  <br/>
+  <input type="text" placeholder="EnterYour_userName"/>
+  <br/>
+  <input type="password" placeholder="EnterYourPassCode"/>
+  <br/>
+  <!--<label> tag we assign label tag to an <input> tag it is like name of the input tag-->
+  <!--There are majorly two uses of <label> 1.For those users who eyesight is not proper then by using the label tag the browser detects the label tags and tells the users what are present in the website...-->
+  <!--For example The browser tells the user there is a checkBox or radioButton or youneed to enter your login id like that..-->  
+  <!--2.labels helps in grouping of radio buttons with same name and also if you click on name also you can select that value, Radio buttons are those button in which you can select only one option.-->
+
+
+  <!--radiobutton-->
+  <!--in your <input> tag if value of your type is radio then there is another attribute known as value in input tag,
+  that stores the value of the radio button you need to send to the backend.And it has name. for which name you want to pass the value of the radio button-->
+  <h3>Select your class..</h3>
+  <label for="id1">
+  <input type="radio" value="1styear" name="class" id='id1'/>1styear
+</label>
+<br/>
+  <!--in the above example the value and the 1styear outside of the input tag should be same....-->
+  <label for="id2">
+  <input type="radio" value="2ndyear" name="class" id='id2'/>2ndyear
+</label>
+<br/>
+<label for="id3">
+  <input type="radio" value="3rdyear" name="class" id='id3'/>3rdyear
+</label>
+<br/>
+<label for="id4">
+  <input type="radio" value="4thyear" name="class" id='id4'/>4thyear
+</label>
+<!--for attribute in <label> tag identifies <input> from the id attribute of <input> tag-->
+  <!--from the 4 values for the class you can select only one option...-->
+
+  <!--Classes and Id-->
+  <!--with class attribute we can group two or elements or tags into one group..-->
+  <!--with id attribute we can uniquely identify the element we want in a group...-->
+  <div id="id1" class="1"></div>
+  <div id="id2" class="1"></div>
+  <!--both of the above <div> tag belongs to same group that is 1 and the id's of the <div> tags are id1 and id2 respectively...-->
+
+  <br/>
+    <!--CHECKBOXES-->
+    <!--When we want to select multiple buttons or options in that case we cannot use the type of the input is radio we need to use checkbox inplace of radio...-->
+    <h3>Select your Fav Subjects</h3>
+    <label for="a">
+      <input type="checkbox" value="Math" name="FavSub" id="a"/>Mathematics
+    </label><br/>
+    <label for="b">
+      <input type="checkbox" value="Physics" name="FavSub" id="b"/>Physics
+    </label><br/>
+    <label for="c">
+      <input type="checkbox" value="Chemistry" name="FavSub" id="c"/>Chemistry
+    </label>
+
+<br/>
+    <!--Select tag used to select an option there will box drag with options we need to select our choice.-->
+    Select your city:
+    <select name="city">
+      <option value="Delhi">Delhi</option>
+      <option value="Banglore">Banglore</option>
+      <option value="Gurgon">Gurgon</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Pune">Pune</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Chennai">Chennai</option>
+    </select>
+
+  <br/>
+    
+<!--TextArea:Is used to take multiple lines of input from user like feedback.-->
+<br/>
+<textarea name="feedback" id="r" placeholder="Please give your feedback..." rows="3" cols="100"></textarea>
+<!--We can use rows and cols(colomns) attributes in textarea to define size of the area...-->
+
+
+<!--In input tag in type attribute we can also give submit. This sends the data to action mentioned.-->
+<br/>
+<input type="submit" value="submit"/>
+
+</form>
+
+<br/>
+
+<!--iframe tag:This tag is used to add website inside a website-->
+<!--Ex:<iframe src="link">-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ewsyznX3Vjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<iframe width="560" height="315" src="https://www.wikipedia.org/" title="Wikipedia" allowfullscreen></iframe>
+
+<br/>
+<!--<video> tag:used to add videos with src attribute and value of it is relative url or absolute url of the video.-->
+  <video src="/my_video.mp4" width="250" height="250" controls loop>Myvideo</video>
+
+
+
+</body>
+</html>
+
+
+
